@@ -1,0 +1,15 @@
+hr{
+	border-color:#9f9f9f;
+}
+
+.list-group-item{
+	background-color: #3a3a3a;
+	color: #9f9f9f;
+	border: none;
+}
+.list-group-item:hover{
+	background-color: #3f3f3f;
+	color: #fbfbfb;
+	border: 2px solid #999999;
+
+}

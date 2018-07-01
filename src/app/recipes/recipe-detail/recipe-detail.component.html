@@ -1,0 +1,48 @@
+<div class="kontejner">
+
+	<div class="row">
+		<div class="col-xs-12">
+			<img src={{getRecipe.img}}
+			alt=""
+			class="img-responsive"
+			style="height: 300px;
+			width: 100%;">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12" style="padding-left: 0; margin-top: 50px">
+			<h1 style="text-align:center;">{{getRecipe.name}}</h1>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<em>
+					<h2>{{getRecipe.description}}</h2>
+				</em>
+			</div>
+		</div>
+		<div class="dropdown">
+			<button class="btn btn-default dropdown-toggle" style="margin-left: 3%;" type="button" id="dropdownMenu1" data-toggle="dropdown"
+			 aria-haspopup="true" aria-expanded="true">
+				Manage recipe
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+				<li>
+					<a href="#">to Shopping List</a>
+				</li>
+				<li>
+					<a href="#">Edit Recipe</a>
+				</li>
+				<li>
+					<a href="#">Delete Recipe</a>
+				</li>
+			</ul>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				Ingredients
+			</div>
+		</div>
+	</div>
+</div>

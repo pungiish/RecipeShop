@@ -1,0 +1,27 @@
+<div class="row">
+	<div class="col-xs-12">
+		<form class="form-horizontal" role="form">
+			<div class="row">
+				<div class="col-xs-5 form-group">
+					<label for="ingredient">Ingredient</label>
+					<input type="text" class="form-control" id="ingredient" placeholder="Ingredient" #ingredientRef>
+				</div>
+				<div class="col-xs-3 form-group">
+					<label for="amount">Amount</label>
+					<input type="number" class="form-control" id="amount" placeholder="Amount" #amountRef>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-xs-12" style="padding-left: 0">
+		<button id="add" type="button" class="btn" (click)="addToCart()">Add</button>
+		<span> AA</span>
+		<button id="clear" type="button" class="btn">Clear</button>
+		<span> AA</span>
+		<button id="delete" type="button" class="btn">Delete</button>
+
+	</div>
+</div>

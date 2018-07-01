@@ -1,0 +1,30 @@
+
+
+button{
+	background-color: #3a3a3a;
+	color: #9f9f9f;
+}
+button:hover{
+	background-color: #3f3f3f;
+	color: #fbfbfb;
+}
+label{
+	color: #5a5a5a;
+}
+input{
+	background-color: #3a3a3a;
+	color: #fbfbfb;
+	border: none;
+}
+span{
+	visibility: hidden;
+}
+#add{
+	border: 2px solid #999999;
+}
+#clear{
+	border: 2px solid #999999;
+}
+#delete{
+	border: 2px solid #999999;
+}

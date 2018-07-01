@@ -1,0 +1,13 @@
+<div class="row">
+	<div class="col-xs-12" style="padding-left:0">
+		<button type="button" class="btn">New Recipe</button>
+	</div>
+</div>
+<div class="skrij"> nekaj </div>
+<div class="row">
+	<div class="col-xs-12" style="padding-left:0">
+
+		<app-recipe-item *ngFor="let recipe of recipes; let i = index" [recipe]=recipe (click)="onSelect(i)">
+		</app-recipe-item>
+	</div>
+</div>

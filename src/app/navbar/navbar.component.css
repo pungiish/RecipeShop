@@ -1,0 +1,30 @@
+.space-between {
+	display: flex;
+	justify-content: space-evenly;
+	background: #333;
+	margin-bottom: 20px;
+}
+.default-flex {
+	display: flex;
+}
+
+.child {
+	margin: 10px;
+	padding: 5px;
+	background-color:#3a3a3a;
+	color: #fbfbfb;
+	text-decoration-line: none;
+}
+.child:hover {
+	margin: 6px;
+	padding: 8px;
+	border: 1px solid #999999;
+	cursor: pointer;
+
+}
+.brand {
+	margin: 10px;
+	padding: 5px;
+	color: #C0FFEE;
+	/* background-color: #3a3a3a; */
+}
